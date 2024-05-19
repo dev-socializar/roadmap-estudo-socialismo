@@ -1,0 +1,38 @@
+/* Styles for the tree structure */
+.tree ul {
+  list-style-type: none;
+}
+
+.tree .caret {
+  cursor: pointer;
+  user-select: none; /* Prevent text selection */
+}
+
+.tree .caret::before {
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.tree .nested {
+  display: none;
+}
+
+.tree .active {
+  display: block;
+}
+
+/* Add indentation to nested li elements */
+.tree ul li {  
+  position: relative;
+  margin: 5px;
+}
+
+/* Tabs */
+.content-tab {
+  display: none;
+}
+
+.content-tab.is-active {
+  display: block;
+}

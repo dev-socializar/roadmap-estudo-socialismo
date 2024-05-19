@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roteiro de estudos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+
+    <section class="hero is-primary is-medium">
+        <!-- Hero head: will stick at the top -->
+        <div class="hero-head">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item">
+                            <img src="./assets/images/notebook-1.svg" alt="Logo" />
+                        </a>
+                        <span class="navbar-burger" data-target="navbarMenuHeroA">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                    <div id="navbarMenuHeroA" class="navbar-menu">
+                        <div class="navbar-end">
+                            <a class="navbar-item" href="#about"> Sobre </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Hero content: will be in the middle -->
+        <div class="hero-body">
+            <nav class="tabs is-boxed is-fullwidth">
+                <div class="container">
+                    <ul>
+                        <li class="is-active" data-tab="tab-1"><a>Roteiro</a></li>
+                        <li data-tab="tab-2"><a>Conteúdo</a></li>
+                        <li data-tab="tab-3"><a>Complemento</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="container has-text-centered">
+            </br>
+                <div id="tab-content">
+                    <div id="tab-1" class="content-tab is-active">                    
+                        <div id="tree" class="tree">
+                            <span class="title">Roteiro</span>                        
+                            <ul>
+                                <li>
+                                    <span class="caret">
+                                        <div class="box">Tópico 1</div>
+                                    </span>
+                                    <ul class="nested">
+                                        <li>
+                                            <div class="box">Conteúdo do item 1</div>
+                                        </li>
+                                        <li>
+                                            <div class="box">Conteúdo do item 2</div>
+                                        </li>
+                                        <li>
+                                            <div class="box">Conteúdo do item 3</div>
+                                        </li>
+                                        <li>
+                                            <div class="box">Conteúdo do item 4</div>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <span class="caret">
+                                        <div class="box">Tópico 2</div>
+                                    </span>
+                                    <ul class="nested">
+                                        <li>
+                                            <div class="box">Conteúdo do item 1</div>
+                                        </li>
+                                        <li>
+                                            <div class="box">Conteúdo do item 2</div>
+                                        </li>
+                                        <li>
+                                            <div class="box">Conteúdo do item 3</div>
+                                        </li>
+                                        <li>
+                                            <div class="box">Conteúdo do item 4</div>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <span class="caret">
+                                        <div class="box">Tópico 3</div>
+                                    </span>
+                                    <ul class="nested">
+                                        <li>
+                                            <div class="box">Conteúdo do item 1</div>
+                                        </li>
+                                        <li>
+                                            <div class="box">Conteúdo do item 2</div>
+                                        </li>
+                                        <li>
+                                            <div class="box">Conteúdo do item 3</div>
+                                        </li>
+                                        <li>
+                                            <div class="box">Conteúdo do item 4</div>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <span class="caret">
+                                        <div class="box">Tópico 4</div>
+                                    </span>
+                                    <ul class="nested">
+                                        <li>
+                                            <div class="box">Conteúdo do item 1</div>
+                                        </li>
+                                        <li>
+                                            <div class="box">
+                                                <p>Quisque sollicitudin elit vel sem lacinia mattis. Duis fringilla lorem in risus ullamcorper, vulputate tristique ipsum tempor. Sed fermentum quam eu scelerisque posuere. Maecenas et libero eget neque auctor fringilla ac ac elit. Praesent fringilla, ligula id ornare interdum, urna ipsum aliquam tellus, in vestibulum ligula urna sit amet quam. In at iaculis arcu, at semper metus. Sed sed dolor interdum, faucibus libero in, posuere mi. </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>                                
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="tab-2" class="content-tab">
+                        <div id="tree" class="tree">
+                            <span class="title">Conteúdo</span>
+                            <ul>
+                                <li>
+                                    <span class="caret">
+                                        <div class="box">Tab 2 - Tópico 1</div>
+                                    </span>
+                                    <ul class="nested">
+                                        <li>
+                                            <div class="box">
+                                                <label class="checkbox">
+                                                    <input type="checkbox" />
+                                                </label>
+                                                Conteúdo do Item 1
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="box">Conteúdo do item 2</div>
+                                        </li>                                        
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="tab-3" class="content-tab">
+                        <div id="tree" class="tree">
+                            <span class="title">Complemento</span>
+                            <ul>
+                                <li>
+                                    <span class="caret">
+                                        <div class="box">Tab 3 - Tópico 1</div>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero footer: will stick at the bottom -->
+        <div class="hero-foot">
+
+            <!-- Bottom Section -->
+            <section class="section" id="about">
+                <div class="container">
+                    <h1 class="title">Sobre</h1>
+                    <p class="content">
+                        Este projeto busca agregar material para estudo.
+                    </p>
+                </div>
+            </section>            
+            
+        </div>
+    </section>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
